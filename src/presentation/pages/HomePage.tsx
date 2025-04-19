@@ -37,11 +37,13 @@ const HomePage = () => {
           transition={{ duration: 0.8 }}
           className="lg:w-1/2"
         >
-          <img 
-            src="/hero-app.png" 
-            alt="Giao diện Fluency" 
-            className="rounded-2xl shadow-2xl"
-          />
+          <div className="aspect-video bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl shadow-2xl flex items-center justify-center">
+            <div className="text-white text-8xl">
+              <svg className="w-32 h-32" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+              </svg>
+            </div>
+          </div>
         </motion.div>
       </section>
 
@@ -56,30 +58,18 @@ const HomePage = () => {
             <div className="bg-gray-50 p-8 rounded-xl text-center">
               <h3 className="text-2xl font-semibold mb-4">Cho điện thoại</h3>
               <div className="flex flex-col space-y-4">
-                <a 
-                  href="https://play.google.com/store/apps/details?id=com.fluency.app" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-block"
-                >
-                  <img 
-                    src="/google-play-badge.png" 
-                    alt="Tải trên Google Play" 
-                    className="h-16"
-                  />
-                </a>
-                <a 
-                  href="https://apps.apple.com/app/fluency/id123456789" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-block"
-                >
-                  <img 
-                    src="/app-store-badge.png" 
-                    alt="Tải trên App Store" 
-                    className="h-16"
-                  />
-                </a>
+                <Button size="lg" className="bg-green-600 hover:bg-green-700">
+                  <svg className="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v18m0 0l-5.5-5.5M9 21l5.5-5.5" />
+                  </svg>
+                  Tải cho Android
+                </Button>
+                <Button size="lg" className="bg-gray-800 hover:bg-gray-900">
+                  <svg className="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v18m0 0l-5.5-5.5M9 21l5.5-5.5" />
+                  </svg>
+                  Tải cho iOS
+                </Button>
               </div>
             </div>
             {/* Desktop */}
@@ -87,12 +77,21 @@ const HomePage = () => {
               <h3 className="text-2xl font-semibold mb-4">Cho máy tính</h3>
               <div className="flex flex-col space-y-4">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                  <svg className="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v18m0 0l-5.5-5.5M9 21l5.5-5.5" />
+                  </svg>
                   Tải cho Windows
                 </Button>
                 <Button size="lg" className="bg-gray-800 hover:bg-gray-900">
+                  <svg className="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v18m0 0l-5.5-5.5M9 21l5.5-5.5" />
+                  </svg>
                   Tải cho macOS
                 </Button>
                 <Button size="lg" className="bg-orange-600 hover:bg-orange-700">
+                  <svg className="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v18m0 0l-5.5-5.5M9 21l5.5-5.5" />
+                  </svg>
                   Tải cho Linux
                 </Button>
               </div>
