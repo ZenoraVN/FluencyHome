@@ -9,7 +9,7 @@ interface RouteConfig {
 
 // Lazy load pages
 const HomePage = lazy(() => import('../pages/HomePage'));
-const FeaturesPage = lazy(() => import('../pages/FeaturesPage'));
+const FeaturesPage = lazy(() => import('../pages/FeaturePage'));
 const GuidePage = lazy(() => import('../pages/GuidePage'));
 const BlogPage = lazy(() => import('../pages/BlogPage'));
 const ContactPage = lazy(() => import('../pages/ContactPage'));
