@@ -1,7 +1,7 @@
 import Topbar from "../components/Topbar";
-import FeatureHeroSection from "./sections/feature/FeatureHeroSection";
-import FeatureShowcaseSection from "./sections/feature/FeatureShowcaseSection";
-import FeatureComparisonSection from "./sections/feature/FeatureComparisonSection";
+import FeatureHeroSection from "../components/sections/feature/FeatureHeroSection";
+import FeatureShowcaseSection from "../components/sections/feature/FeatureShowcaseSection";
+import FeatureComparisonSection from "../components/sections/feature/FeatureComparisonSection";
 
 const FeaturePage = () => {
   return (

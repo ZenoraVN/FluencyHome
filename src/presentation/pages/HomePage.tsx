@@ -1,13 +1,13 @@
 import Topbar from "../components/Topbar";
-import HeroSection from "./sections/Home/HeroSection";
-import DownloadSection from "./sections/Home/DownloadSection";
-import FeaturesSection from "./sections/Home/FeaturesSection";
-import StudyMethodsSection from "./sections/Home/StudyMethodsSection";
-import TestimonialsSection from "./sections/Home/TestimonialsSection";
-import FAQSection from "./sections/guide/FAQSection";
-import StatisticsSection from "./sections/Home/StatisticsSection";
-import QuizSection from "./sections/Home/QuizSection";
-import CTASection from "./sections/Home/CTASection";
+import HeroSection from "../components/sections/Home/HeroSection";
+import DownloadSection from "../components/sections/Home/DownloadSection";
+import FeaturesSection from "../components/sections/Home/FeaturesSection";
+import StudyMethodsSection from "../components/sections/Home/StudyMethodsSection";
+import TestimonialsSection from "../components/sections/Home/TestimonialsSection";
+import FAQSection from "../components/sections/guide/FAQSection";
+import StatisticsSection from "../components/sections/Home/StatisticsSection";
+import QuizSection from "../components/sections/Home/QuizSection";
+import CTASection from "../components/sections/Home/CTASection";
 
 const HomePage = () => {
   return (

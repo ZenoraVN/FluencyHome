@@ -1,7 +1,7 @@
 import Topbar from "../components/Topbar";
-import GuideHeroSection from "./sections/guide/GuideHeroSection";
-import QuickStartGuideSection from "./sections/guide/QuickStartGuideSection";
-import FAQSection from "./sections/guide/FAQSection";
+import GuideHeroSection from "../components/sections/guide/GuideHeroSection";
+import QuickStartGuideSection from "../components/sections/guide/QuickStartGuideSection";
+import FAQSection from "../components/sections/guide/FAQSection";
 
 const GuidePage = () => {
   return (
