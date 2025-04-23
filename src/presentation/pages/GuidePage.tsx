@@ -1,7 +1,7 @@
 import Topbar from "../components/Topbar";
 import GuideHeroSection from "./sections/guide/GuideHeroSection";
 import QuickStartGuideSection from "./sections/guide/QuickStartGuideSection";
-import GuideFAQSection from "./sections/guide/GuideFAQSection";
+import FAQSection from "./sections/guide/FAQSection";
 
 const GuidePage = () => {
   return (
@@ -9,7 +9,7 @@ const GuidePage = () => {
       <Topbar />
       <GuideHeroSection />
       <QuickStartGuideSection />
-      <GuideFAQSection />
+      <FAQSection />
     </div>
   );
 };
